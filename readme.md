@@ -11,6 +11,7 @@ Provide：
 - timer
 - lowpass fitler
 - kalman filter
+- fusion quaternion: Update quaternion based on gyroscope and accelerometer and magnetometer
 
 ## Requirements
 
