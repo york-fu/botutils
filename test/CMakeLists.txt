@@ -11,8 +11,9 @@ add_executable(tests
     ${PROJECT_SOURCE_DIR}/timer_test.cc
     ${PROJECT_SOURCE_DIR}/lowpass_filter_test.cc
     ${PROJECT_SOURCE_DIR}/kalman_filter_test.cc
+    ${PROJECT_SOURCE_DIR}/quaternion_estimator_test.cc
 )
 
-target_link_libraries(tests ${GTEST_LIBRARIES} gtest_main pthread perf timer filter)
+target_link_libraries(tests ${GTEST_LIBRARIES} gtest_main pthread perf timer filter fusion)
 
 add_test(NAME tests COMMAND tests)

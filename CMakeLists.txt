@@ -8,6 +8,7 @@ enable_testing()
 
 add_subdirectory(src)
 add_subdirectory(src/filter)
+add_subdirectory(src/quaternion_estimator)
 add_subdirectory(test)
 
 if(EXAMPLE)
